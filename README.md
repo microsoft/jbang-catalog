@@ -20,7 +20,7 @@ Currently there are three projects:
 - Azure Application Insights Agent
 - Playwright
 
-### Minecraft Java Server
+### [Minecraft: Java Edition Server](https://www.minecraft.net/en-us/download/server)
 
 To start a Minecraft Java Server using JBang, follow these steps:
 
@@ -52,7 +52,7 @@ Now run the script. You will see the browser window open again, and the automate
 $ jbang --deps com.microsoft.playwright:playwright:RELEASE Example.java
 ``` 
 
-### Azure Application Insights
+### [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
 To run a jbang program with the App Insights agent enabled, run:
 
@@ -62,7 +62,7 @@ $ jbang --javaagent applicationinsights-agent@microsoft <yourapp>
 
 Where `<yourapp>` can be a single-source file script, a JAR, or even a GAV (Group, Artifact, Version coordinate) of an Apache Maven artifact.
 
-To configure the agent, see the [App Insights documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent).
+To configure the agent, see the [Azure Application Insights documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent).
 
 ## Contributing
 
