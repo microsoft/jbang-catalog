@@ -12,13 +12,15 @@ To list the latest available artifacts in the Microsoft JBang's catalog, run the
 $ jbang catalog list microsoft
 ```
 
+## Microsoft JBang Projects
+
 Currently there are three projects:
 
 - Minecraft Java Server
 - Azure Application Insights Agent
 - Playwright
 
-## Minecraft Java Server
+### Minecraft Java Server
 
 To start a Minecraft Java Server using JBang, follow these steps:
 
@@ -34,7 +36,7 @@ To start a Minecraft Java Server using JBang, follow these steps:
 
 Once you start the server, a `server.properties` file will be created for further customizations. [Learn more](https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server).
 
-## [Playwright](https://playwright.dev/java/)
+### [Playwright](https://playwright.dev/java/)
 
 Playwright for JBang is a wrapper for the [Playwright Java CLI](https://playwright.dev/java/docs/cli).
 
@@ -50,7 +52,7 @@ Now run the script. You will see the browser window open again, and the automate
 $ jbang --deps com.microsoft.playwright:playwright:RELEASE Example.java
 ``` 
 
-## Azure Application Insights
+### Azure Application Insights
 
 To run a jbang program with the App Insights agent enabled, run:
 
