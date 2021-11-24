@@ -4,6 +4,14 @@
 
 This repository hosts the catalog of Microsoft projects with support for JBang.
 
+Before continuing, [install JBang](https://www.jbang.dev/download/).
+
+To list the latest available artifacts in the Microsoft JBang's catalog, run the following:
+
+```bash
+$ jbang catalog list microsoft
+```
+
 Currently there are three projects:
 
 - Minecraft Java Server
