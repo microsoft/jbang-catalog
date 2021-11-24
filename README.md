@@ -1,14 +1,38 @@
-# Project
+# JBang Catalog
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+[JBang](https://jbang.dev) is an open source project that allows developers to script programs in Java, and optionally rely on dependencies hosted on Maven Central. Learn more about JBang from this [InfoQ article](https://www.infoq.com/news/2020/10/scripting-java-jbang/).
 
-As the maintainer of this project, please make a few updates:
+This repository hosts the catalog of Microsoft projects with support for JBang.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Currently there are three projects:
+
+- Minecraft Java Server
+- Azure Application Insights Agent
+- Playwright
+
+## Minecraft Java Server
+
+To start a Minecraft Java Server using JBang, follow these steps:
+
+1. [Install JBang](https://www.jbang.dev/download/).
+2. Create a folder `minecraft-server` and get into it on your terminal.
+3. Read and accept the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula). To accept the EULA, create a local file named `eula.txt` with content `eula=true` inside.
+4. Run the server:
+
+```bash
+~/minecraft-server $ echo "eula=true" > eula.txt
+~/minecraft-server $ jbang minecraft-server@microsoft
+```
+
+Once you start the server, a `server.properties` file will be created for further customizations. [Learn more](https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server).
+
+## Playwright
+
+TODO
+
+## Azure Application Insights
+
+TODO
 
 ## Contributing
 
