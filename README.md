@@ -38,15 +38,29 @@ Once you start the server, a `server.properties` file will be created for furthe
 
 Playwright for JBang is a wrapper for the [Playwright Java CLI](https://playwright.dev/java/docs/cli).
 
-Here's an example of how to generate a sample Playwright script:
+Here's an example of how to generate a sample Playwright script. A browser window will start and the navigation flow will get recorded in the `Example.java` file.
 
 ```bash
 $ jbang playwright@microsoft codegen -o Example.java
 ```
 
+Now run the script. You will see the browser window open again, and the automated navigation flow.
+
+```bash
+$ jbang --deps com.microsoft.playwright:playwright:RELEASE Example.java
+``` 
+
 ## Azure Application Insights
 
-TODO
+To run a jbang program with the App Insights agent enabled, run:
+
+```bash
+$ jbang --javaagent applicationinsights-agent@microsoft <yourapp>
+```
+
+Where `<yourapp>` can be a single-source file script, a JAR, or even a GAV (Group, Artifact, Version coordinate) of an Apache Maven artifact.
+
+To configure the agent, see the [App Insights documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent).
 
 ## Contributing
 
