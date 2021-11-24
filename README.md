@@ -34,9 +34,15 @@ To start a Minecraft Java Server using JBang, follow these steps:
 
 Once you start the server, a `server.properties` file will be created for further customizations. [Learn more](https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server).
 
-## Playwright
+## [Playwright](https://playwright.dev/java/)
 
-TODO
+Playwright for JBang is a wrapper for the [Playwright Java CLI](https://playwright.dev/java/docs/cli).
+
+Here's an example of how to generate a sample Playwright script:
+
+```bash
+$ jbang playwright@microsoft codegen -o Example.java
+```
 
 ## Azure Application Insights
 
