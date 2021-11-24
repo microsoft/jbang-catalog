@@ -1,4 +1,4 @@
-# JBang Catalog
+# Microsoft JBang Catalog
 
 [JBang](https://jbang.dev) is an open source project that allows developers to script programs in Java, and optionally rely on dependencies hosted on Maven Central. Learn more about JBang from this [InfoQ article](https://www.infoq.com/news/2020/10/scripting-java-jbang/).
 
@@ -34,6 +34,12 @@ To start a Minecraft Java Server using JBang, follow these steps:
 ```
 
 Once you start the server, a `server.properties` file will be created for further customizations. [Learn more](https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server).
+
+If you want to run this on a headless server, add `nogui` argument.
+
+```bash
+~/minecraft-server $ jbang minecraft-server@microsoft nogui
+```
 
 ### [Playwright](https://playwright.dev/java/)
 
