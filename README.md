@@ -24,10 +24,9 @@ Currently there are three projects:
 
 To start a Minecraft Java Server using JBang, follow these steps:
 
-1. [Install JBang](https://www.jbang.dev/download/).
-2. Create a folder `minecraft-server` and get into it on your terminal.
-3. Read and accept the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula). To accept the EULA, create a local file named `eula.txt` with content `eula=true` inside.
-4. Run the server:
+1. Create a folder `minecraft-server` and get into it on your terminal.
+1. Read and accept the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula). To accept the EULA, create a local file named `eula.txt` with content `eula=true` inside.
+1. Run the server:
 
 ```bash
 ~/minecraft-server $ echo "eula=true" > eula.txt
