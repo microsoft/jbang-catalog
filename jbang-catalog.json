@@ -4,7 +4,7 @@
       "script-ref": "https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar",
       "description": "Minecraft: Java Edition Server\nRequires agreeing to EULA to run. Create `eula.txt` file with `eula=true` as content and then run using `jbang minecraft-server@microsoft`",
       "java-options": [
-        "-Xmx1024M",
+        "-Xmx2048M",
         "-Xms1024M"
       ],
       "java": "16"
