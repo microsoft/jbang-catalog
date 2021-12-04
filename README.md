@@ -16,9 +16,9 @@ $ jbang catalog list microsoft
 
 Currently there are three projects:
 
-- Minecraft Java Server
+- Minecraft: Java Edition Server
 - Azure Application Insights Agent
-- Playwright
+- Playwright for Java
 
 ### [Minecraft: Java Edition Server](https://www.minecraft.net/en-us/download/server)
 
@@ -56,6 +56,12 @@ Now run the script. You will see the browser window open again, and the automate
 ```bash
 $ jbang --deps com.microsoft.playwright:playwright:RELEASE Example.java
 ``` 
+
+For more command options, run:
+
+```bash
+$ jbang playwright@microsoft --help
+```
 
 ### [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 

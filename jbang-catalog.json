@@ -1,7 +1,7 @@
 {
   "aliases": {
     "minecraft-server": {
-      "script-ref": "https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar",
+      "script-ref": "https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar",
       "description": "Minecraft: Java Edition Server\nRequires agreeing to EULA to run. Create `eula.txt` file with `eula=true` as content and then run using `jbang minecraft-server@microsoft`",
       "java-options": [
         "-Xmx2048M",
@@ -15,7 +15,7 @@
     },
     "playwright": {
       "script-ref": "https://github.com/microsoft/playwright-java/blob/master/scripts/playwright.java",
-      "description": "Playwright lets you automate Chromium, Firefox and Webkit with a single API. \nWith this cli you can install, trace, generate pdf and screenshots and more.\nExample on how to record and run a script:\n```\n  jbang playwright@microsoft codegen -o Example.java`\n  jbang --deps com.microsoft.playwright:playwright:RELEASE Example.java\n```"
+      "description": "Playwright lets you automate Chromium, Firefox and Webkit with a single API. \nWith this CLI you can install, trace, generate pdf and screenshots and more.\nSee all commands available:\n```\n  jbang playwright@microsoft --help\n```"
     }
   },
   "templates": {}
