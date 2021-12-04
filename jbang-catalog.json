@@ -7,7 +7,7 @@
         "-Xmx2048M",
         "-Xms1024M"
       ],
-      "java": "16"
+      "java": "17"
     },
     "appinsights-agent": {
       "script-ref": "com.microsoft.azure:applicationinsights-agent:3.2.3",
