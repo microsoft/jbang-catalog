@@ -5,7 +5,8 @@
       "description": "Minecraft: Java Edition Server\nRequires agreeing to EULA to run. Create `eula.txt` file with `eula=true` as content and then run using `jbang minecraft-server@microsoft`",
       "java-options": [
         "-Xmx1024M",
-        "-Xms1024M"
+        "-Xms1024M",
+        "-Dlog4j2.formatMsgNoLookups=true"
       ],
       "java": "17"
     },
