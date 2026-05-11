@@ -63,17 +63,17 @@ For more command options, run:
 $ jbang playwright@microsoft --help
 ```
 
-### [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+### [Azure Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 
 To run a jbang program with the App Insights agent enabled, run:
 
 ```bash
-$ jbang --javaagent applicationinsights-agent@microsoft <yourapp>
+$ jbang --javaagent appinsights-agent@microsoft <yourapp>
 ```
 
 Where `<yourapp>` can be a single-source file script, a JAR, or even a GAV (Group, Artifact, Version coordinate) of an Apache Maven artifact.
 
-To configure the agent, see the [Azure Application Insights documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent).
+To configure the agent, see the [Azure Application Insights documentation](https://learn.microsoft.com/azure/azure-monitor/app/java-in-process-agent).
 
 ## Contributing
 

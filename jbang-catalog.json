@@ -1,21 +1,21 @@
 {
   "aliases": {
     "minecraft-server": {
-      "script-ref": "https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar",
+      "script-ref": "https://piston-data.mojang.com/v1/objects/97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51/server.jar",
       "description": "Minecraft: Java Edition Server\nRequires agreeing to EULA to run. Create `eula.txt` file with `eula=true` as content and then run using `jbang minecraft-server@microsoft`",
       "java-options": [
         "-Xmx1024M",
         "-Xms1024M",
         "-Dlog4j2.formatMsgNoLookups=true"
       ],
-      "java": "17"
+      "java": "25"
     },
     "appinsights-agent": {
-      "script-ref": "com.microsoft.azure:applicationinsights-agent:3.2.3",
-      "description": "Azure Application Insights Agent 3.2.3\nRun with `jbang --javaagent appinsights-agent@microsoft \u003cyourapp\u003e`. Needs connection string setup - see https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent for details."
+      "script-ref": "com.microsoft.azure:applicationinsights-agent:3.7.8",
+      "description": "Azure Application Insights Agent 3.7.8\nRun with `jbang --javaagent appinsights-agent@microsoft \u003cyourapp\u003e`. Needs connection string setup - see https://learn.microsoft.com/azure/azure-monitor/app/java-in-process-agent for details."
     },
     "playwright": {
-      "script-ref": "https://github.com/microsoft/playwright-java/blob/master/scripts/playwright.java",
+      "script-ref": "https://raw.githubusercontent.com/microsoft/playwright-java/main/scripts/playwright.java",
       "description": "Playwright lets you automate Chromium, Firefox and Webkit with a single API. \nWith this CLI you can install, trace, generate pdf and screenshots and more.\nSee all commands available:\n```\n  jbang playwright@microsoft --help\n```"
     }
   },
